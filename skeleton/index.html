@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+  <meta charset="utf-8">
+  <title>Angular Demo</title>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+
+  <div class="container">
+
+    <h2>Welcome To AngularJS</h2>
+
+    <div>
+      <input type="text" ng-model="name" placeholder="Please Enter a Name">
+    </div>
+
+    <div>
+      <p>Welcome to Angular, {{name}}!</p> 
+    </div>
+  </div>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="lib/angular/angular.js"></script>
+
+</body>
+</html>
