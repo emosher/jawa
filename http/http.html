@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Angular Demo</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body ng-app="controllerApp">
+
+    <div class="container" ng-controller="FossController">
+
+        <h2>Welcome To AngularJS</h2>
+
+        <h4>The $http Service</h4>
+
+        <div>
+            <div ng-repeat="project in fossProjects">
+                <h5>{{project.title}}</h5>
+                <a href="{{project.github}}">View on Github</a>
+                <p>{{project.description}}</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Include AngularJS scripts -->
+    <script src="lib/angular/angular.js"></script>
+
+    <!-- Include our scripts -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+
+</body>
+</html>

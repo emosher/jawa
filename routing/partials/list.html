@@ -1,0 +1,7 @@
+<div>
+    <div ng-repeat="project in fossProjects">
+        <h5><a href="#/{{$index}}">{{project.title}}</a></h5>
+        <a href="{{project.github}}">View on Github</a>
+        <p>{{project.description}}</p>
+    </div>
+</div>

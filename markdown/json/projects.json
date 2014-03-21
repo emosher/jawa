@@ -1,0 +1,38 @@
+[
+    { 
+        "title": "Gitlab",
+        "name": "gitlab",
+        "github": "https://github.com/gitlabhq/gitlabhq",
+        "description": "A Git based project management and code hosting application. It is open source and built on Ruby on Rails."
+    },{ 
+        "title": "AngularJS",
+        "name": "angular",
+        "github": "https://github.com/angular/angular.js",
+        "description": "AngularJS lets you write client-side web applications as if you had a smarter browser. It lets you use good old HTML (or HAML, Jade and friends!) as your template language and lets you extend HTML’s syntax to express your application’s components clearly and succinctly."
+    },{ 
+        "title": "Twitter Bootstrap",
+        "name": "twbs",
+        "github": "https://github.com/twbs/bootstrap",
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web."
+    },{ 
+        "title": "Grunt",
+        "name": "grunt",
+        "github": "https://github.com/gruntjs/grunt",
+        "description": "The JavaScript task runner. The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze."
+    },{ 
+        "title": "Knockout",
+        "name": "knockout",
+        "github": "https://github.com/knockout/knockout",
+        "description": "Knockout is a JavaScript MVVM (a modern variant of MVC) library that makes it easier to create rich, desktop-like user interfaces with JavaScript and HTML. It uses observers to make your UI automatically stay in sync with an underlying data model, along with a powerful and extensible set of declarative bindings to enable productive development."
+    },{ 
+        "title": "Backbone",
+        "name": "backbone",
+        "github": "https://github.com/jashkenas/backbone/",
+        "description": "Give your JS App some Backbone with Models, Views, Collections, and Events. Backbone supplies structure to JavaScript-heavy applications by providing models key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing application over a RESTful JSON interface."
+    },{ 
+        "title": "Ember",
+        "name": "ember",
+        "github": "https://github.com/emberjs/ember.js",
+        "description": "Ember.js is a JavaScript framework that does all of the heavy lifting that you'd normally have to do by hand. There are tasks that are common to every web app; Ember.js does those things for you, so you can focus on building killer features and UI."
+    }
+]

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Angular Demo</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body ng-app="markdownApp">
+
+    <div class="container">
+
+        <h2>Welcome To AngularJS</h2>
+
+        <h4>Library Usage and Multiple Views</h4>
+
+        <div ng-view></div>
+
+    </div>
+    
+    <!-- Include AngularJS scripts -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-route.js"></script>
+    <script src="lib/angular/angular-sanitize.js"></script>
+
+    <!-- Additional libraries -->
+    <script src="lib/showdown/showdown.js"></script>
+    <script src="lib/angular-markdown/markdown.js"></script>
+
+    <!-- Include our scripts -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+
+</body>
+</html>
